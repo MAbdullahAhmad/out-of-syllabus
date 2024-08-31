@@ -14,6 +14,10 @@ const Auth = {
         }
     },
 
+    // logout
+    // is_logged_in
+    // is_admin
+
     // More auth related functions (logout, verify_email, etc.)
 };
 

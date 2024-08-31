@@ -1,30 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 
-function Example() {
+function ExampleComponent() {
     return (
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-header">Example Component</div>
-
-                        <div className="card-body">I'm an example component!</div>
-                    </div>
-                </div>
-            </div>
+        <div>
+            <h2>Example Component</h2>
+            <p>This is a simple example of a React component.</p>
         </div>
     );
 }
 
-export default Example;
-
-if (document.getElementById('example')) {
-    const Index = ReactDOM.createRoot(document.getElementById("example"));
-
-    Index.render(
-        <React.StrictMode>
-            <Example/>
-        </React.StrictMode>
-    )
-}
+export default ExampleComponent;
