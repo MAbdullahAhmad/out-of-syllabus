@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react-jsx",
+      "baseUrl": "./",
+      "paths": {
+        "@components":   ["./resources/js/reactjs/components/index.ts"],
+        "@layouts":      ["./resources/js/reactjs/layouts/index.ts"   ],
+        "@core":         ["./resources/js/reactjs/core/index.ts"      ],
+        "@pages":        ["./resources/js/reactjs/pages/index.ts"     ],
+        "@partials":     ["./resources/js/reactjs/partials/index.ts"  ],
+      }
+    },
+    "include": [
+      "resources/js/reactjs"
+    ]
+  }
+  

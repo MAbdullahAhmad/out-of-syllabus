@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import HomePage from './pages/HomePage/HomePage';
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './reactjs/App'
 
-function App() {
-    return <HomePage />;
-}
-
-ReactDOM.createRoot(document.getElementById('app')).render(<App />);
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)

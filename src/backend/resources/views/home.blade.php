@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div id="app">
+    <div id="root">
         {{-- ReactJS Application renders here --}}
     </div>
 @endsection
